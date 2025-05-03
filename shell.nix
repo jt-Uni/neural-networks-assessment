@@ -9,8 +9,8 @@ pkgs.mkShell {
       matplotlib
       pandas
       torch
+      torchvision
     ]))
   ];
 
-  shellHook = "jupyter notebook";
 }
